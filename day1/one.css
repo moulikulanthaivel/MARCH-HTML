@@ -1,0 +1,63 @@
+a{
+   color: green;
+    font-size: 18px;
+    transition: opacity 0.2s , color 1s
+}
+a:hover{
+opacity: 0.8;
+}
+a:active{
+   color: rgb(19, 1, 85); 
+   opacity: 0.5;
+}
+.one{
+    font-size: 20px;
+}
+.two{
+    color: rgb(0, 118, 0);
+}
+.three{
+    color: darkred;
+}
+.btn1{
+border: none;
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 107px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+   
+}
+.btn1:hover{
+
+opacity: 0.8;
+box-shadow: 2px 2px 2px rgb(255, 217, 0);
+
+}
+.btn1:active{
+
+opacity: 0.5;
+
+}
+
+.btn2{
+    height: 36px;
+    width: 107px;
+    border-radius: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 118 ,28);
+    transition: opacity 0.2s;
+
+}
+
+.btn2:hover{
+
+    box-shadow: 2px 2px 2px rgb(255, 102, 1);
+    opacity: 0.8;
+}
+.btn2:active{
+    opacity: 0.5;
+
+}
